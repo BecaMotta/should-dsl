@@ -1,0 +1,10 @@
+>>> from should_dsl import *
+
+>>> 'hello world' |should_be.started_with| 'hello'
+True
+
+>>> 'Hi world' |should_be.started_with| 'hello'
+Traceback (most recent call last):
+    ...
+ShouldNotSatisfied: 'Hi world' is not started with 'hello'
+

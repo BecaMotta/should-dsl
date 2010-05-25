@@ -6,5 +6,5 @@ True
 >>> 'hello motto' |should_be.ended_with| 'world'
 Traceback (most recent call last):
     ...
-ShouldNotSatisfied: hello motto is not ended with world
+ShouldNotSatisfied: 'hello motto' is not ended with 'world'
 
