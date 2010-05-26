@@ -79,7 +79,7 @@ def kind_of():
 
 @matcher
 def instance_of():
-    return (lambda obj, kind: isinstance(obj, kind), "%r is %s a instance of %r")
+    return (lambda obj, kind: isinstance(obj, kind), "%r is %s an instance of %r")
 
 @matcher
 def ended_with():
